@@ -6,3 +6,8 @@ apply plugin: 'jetty'
 repositories {
   mavenCentral()
 }   
+
+dependencies {
+ testCompile group: 'junit', name: 'junit', version: '4.11'
+ providedCompile group: 'javax', name: 'javaee-web-api', version: '7.0'
+ }
