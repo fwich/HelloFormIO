@@ -8,7 +8,7 @@ public class GreeterTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		new Greeter();
 	}
 
 }
